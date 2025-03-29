@@ -1,0 +1,33 @@
+Package: bibloCNKI
+Title: Bibliometric Analysis Toolkit for CNKI-style Literature Data
+Version: 0.1.0
+Authors@R: 
+    person("First", "Last", email = "first.last@example.com", 
+           role = c("aut", "cre"), 
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Provides tools for analyzing bibliometric data from CNKI (China National Knowledge Infrastructure) 
+    formatted datasets. Contains functions for cumulative publication trend visualization, geographic heatmapping 
+    of research institutions, keyword temporal analysis with dumbbell plots, and comprehensive bibliometric 
+    analytics. Specializes in handling Chinese academic data formats and character encodings.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: 
+    R (>= 4.1.0)
+Imports: 
+    readxl,
+    ggplot2,
+    dplyr,
+    tidyr,
+    stringr,
+    lubridate,
+    leaflet,
+    leaflet.extras,
+    httr,
+    jsonlite,
+    htmlwidgets,
+    tibble,
+    stats
+URL: https://github.com/yourusername/bibloCNKI
+BugReports: https://github.com/yourusername/bibloCNKI/issues
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
